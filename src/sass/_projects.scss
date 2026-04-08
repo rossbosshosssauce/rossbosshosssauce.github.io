@@ -19,7 +19,7 @@
     &:before {
       position: absolute;
       content: '';
-      border-bottom: 18px solid $color-red;
+      border-bottom: 18px solid $space-purple;
       width: 22.5rem;
       display: block;
       margin: 0 auto;
@@ -31,7 +31,7 @@
 
       @media (max-width: 770px) {
         // width: 14rem;
-        border-bottom: 14px solid $color-red;
+        border-bottom: 14px solid $space-purple;
       }
     }
   }
@@ -207,7 +207,7 @@
       position: absolute;
       content: '';
       height: 2px;
-      background-color: $color-red;
+      background-color: $space-purple;
 
       width: 100%;
       bottom: 1px;
@@ -223,7 +223,7 @@
     }
 
     &:hover {
-      color: $color-background;
+      color: $color-text;
     }
 
     &:hover:after {
@@ -253,14 +253,14 @@
     }
 
     &:hover {
-      color: $color-background;
+      color: $color-text;
       font-weight: 700;
     }
 
     &:after {
       position: absolute;
       content: '';
-      border-bottom: 2px solid $color-red;
+      border-bottom: 2px solid $space-purple;
 
       width: calc(100% + 2rem);
       // height: 100%;

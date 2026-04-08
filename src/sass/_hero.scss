@@ -51,7 +51,7 @@
     animation-name: moveInLeft;
 
     & span {
-      color: $color-red;
+      color: #916ded;
       font-weight: 400;
     }
   }
@@ -91,10 +91,10 @@
     height: 4.8rem;
 
     background-color: rgba($color-background, 0.6);
-    border: 2px solid $color-red;
+    border: 2px solid #916ded;
     border-radius: 2px;
 
-    color: $color-red;
+    color: #916ded;
     font-size: 2.4rem;
     font-weight: 500;
 
@@ -131,7 +131,7 @@
       height: 4.8rem;
 
       border-radius: 3px;
-      border: 2px solid rgba($color-red, 1);
+      border: 2px solid rgba(#916ded, 1);
 
       filter: blur(0);
       transform-origin: 50%;
@@ -177,7 +177,7 @@
     // margin-bottom: -3px;
     transform: rotate(90deg);
 
-    fill: $color-red;
+    fill: #916ded;
 
     transition: all 0.3s;
 

@@ -2,12 +2,12 @@ const canvasDotsBg = function () {
   const canvas = document.querySelector('.canvas-2'),
     ctx = canvas.getContext('2d'),
     colorDot = [
-      'rgb(81, 162, 233)',
-      'rgb(81, 162, 233)',
-      'rgb(81, 162, 233)',
-      'rgb(255, 77, 90)',
+      'rgb(145, 109, 237)',
+      'rgb(145, 109, 237)',
+      'rgb(145, 109, 237)',
+      'rgb(255, 255, 255)',
     ], // 75% of dots are blue. 25% pink
-    color = 'rgb(81, 162, 233)';
+    color = 'rgb(145, 109, 237)';
 
   // ctx.globalAlpha = 0.8;
   canvas.width = document.body.scrollWidth;
@@ -214,7 +214,7 @@ const canvasDotsBg = function () {
     dots.array[0].radius = 1.5;
 
     // first dot to be blue
-    dots.array[0].colour = '#51a2e9';
+    dots.array[0].colour = '#916ded';
 
     // dot.line();
     dot.animate();

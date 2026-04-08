@@ -30,7 +30,7 @@
     &:before {
       position: absolute;
       content: '';
-      border-bottom: 18px solid $color-red;
+      border-bottom: 18px solid $space-purple;
       width: 21rem;
       display: block;
       margin: 0 auto;
@@ -42,7 +42,7 @@
 
       @media (max-width: 770px) {
         // width: 14rem;
-        border-bottom: 14px solid $color-red;
+        border-bottom: 14px solid $space-purple;
       }
     }
   }
@@ -86,7 +86,7 @@
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 3px;
-      // border-bottom: 2px solid $color-red;
+      // border-bottom: 2px solid $space-purple;
       z-index: 9;
       cursor: pointer;
 
@@ -98,7 +98,7 @@
       &:after {
         position: absolute;
         content: '';
-        border-bottom: 2px solid $color-red;
+        border-bottom: 2px solid $space-purple;
 
         width: calc(100% + 2rem);
         // height: 100%;
